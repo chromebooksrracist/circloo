@@ -806,7 +806,7 @@ js_Boot.__toStr = ({ }).toString;
 Video.headerSize = 24;
 Video.delaySize = 5;
 Video.longDelaySize = 10;
-Video.keyCodes = [37,39,13,8];
+Video.keyCodes = [37,39,13,8,27];
 haxe_crypto_Base64.CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 Main.main();
 })(typeof window != "undefined" ? window : typeof global != "undefined" ? global : typeof self != "undefined" ? self : this);

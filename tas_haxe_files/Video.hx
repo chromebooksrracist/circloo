@@ -64,7 +64,7 @@ class Video {
 		return writer.toString();
 	}
 
-	public static var keyCodes = [37, 39, 13, 8]; // 37 - left arrow key, 39 - right arrow key, 13 - Enter, 8 - Backspace
+	public static var keyCodes = [37, 39, 13, 8, 27]; // 37 - left arrow key, 39 - right arrow key, 13 - Enter, 8 - Backspace, 27 - Escape
 
 	public static function toActionCode(keyCode:Int):Option<Int> {
 		for (i in 0...keyCodes.length) {
